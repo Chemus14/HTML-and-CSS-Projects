@@ -1,0 +1,24 @@
+ul {
+  width: 300px;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+ol {
+  width: 300px;
+  border: 2px dotted red;
+  background-color: cadetblue;
+}
+
+ul li {
+  text-decoration: wavy underline lime;
+}
+
+ol li {
+  color: red;
+  font-size: 2em;
+}
+
+ul li {
+  color: royalblue;
+  font-size: 2em;
+}

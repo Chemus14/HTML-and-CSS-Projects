@@ -1,0 +1,36 @@
+p {
+  color: blue;
+  text-align: right;
+}
+div {
+  width: 500px;
+}
+h1 {
+  color: blueviolet;
+  background-color: aqua;
+}
+
+.font_1 {
+  background-color: black;
+  color: yellow;
+  font-size: large;
+}
+
+.font_2 {
+  background-color: grey;
+  color: brown;
+  font-size: medium;
+}
+.font_3 {
+  background-color: purple;
+  color: white;
+  font-size: small;
+}
+
+.My_Style {
+  background-color: darksalmon;
+  color: darkmagenta;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: small;
+}
