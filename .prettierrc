@@ -1,0 +1,14 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "semi": true,
+  "overrides": [
+    {
+      "files": "*.py",
+      "options": {
+        "parser": "python",
+        "plugins": ["prettier-plugin-python"]
+      }
+    }
+  ]
+}
