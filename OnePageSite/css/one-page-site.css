@@ -6,6 +6,8 @@ body {
     rgba(5, 154, 235, 1) 43%,
     rgba(9, 9, 121, 1) 100%
   );
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
 }
 header {
   display: flex;
