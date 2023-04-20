@@ -2,9 +2,9 @@
 
 This is a display of sample websites that i made using HTML and CSS
 
-#Projects
+# Projects
 
-1. Space Station
+1. [Space Station ] (SpaceStation)
 2. Movie Theater Site
 
 # Space Station Site
