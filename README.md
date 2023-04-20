@@ -4,7 +4,7 @@ This is a display of sample websites that i made using HTML and CSS
 
 # Projects
 
-1. [Space Station ] (SpaceStation)
+1. [Space Station ](https://github.com/Chemus14/HTML-and-CSS-Projects/tree/main/SpaceStation)
 2. Movie Theater Site
 
 # Space Station Site
