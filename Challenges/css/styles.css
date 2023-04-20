@@ -1,0 +1,191 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.container img {
+    margin-bottom: 40px;
+}
+
+/* Challenge 5.1 */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: grayscale(100%);
+    filter: contrast(50%);
+    border-radius: 20px
+  }
+  /* Challenge 5.2 */
+.footer-text{
+    text-align: center;
+    font-weight: 800;
+}
+
+/* Challenge 5.3 */
+
+table, th, td {
+    border: 1px solid green;
+    width: 100%;
+  }
+td{
+    padding: 40px;
+}
+
+th{
+    background-color: antiquewhite;
+}
+
+/* Challenge 5.4 */
+
+.image {
+    position: relative;
+    margin-top: 20px
+ }
+
+ h2 {
+    position: absolute;
+    top: 220px;
+    left: 480px;
+    width: 40%;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.4);
+    padding: 10px;
+ }
+
+ /* Challenge 5.5 */
+
+ /* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: green;
+    border-radius: 5px;
+  }
+
+  /* Challenge 5.6 */
+
+  .column {
+    float: left;
+    width: 50%;
+    color: green;
+    height: 400px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   /* Challenge 5.7 */
+  p:hover{
+    color: red;
+    cursor: pointer;
+  }
+
+  /* Challenge 5.8 */
+
+  .cont-img {
+    position: relative;
+    width: 50%;
+  }
+  
+  .img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255,255,255,0.7);
+  }
+  
+  .cont-img:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  /* Challenge 5.10 */
+
+  .cont-video {
+    position: relative;
+    width: 50%;
+  }
+  
+  .video {
+    display: block;
+    height: 400px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255,255,255,0.7);
+  }
+  
+  .cont-video:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
