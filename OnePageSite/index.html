@@ -4,6 +4,7 @@
     <title>One Page Site Html</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="css/one-page-site.css" />
+    <script src="js/script.js" defer></script>
   </head>
   <body>
     <header>
@@ -12,6 +13,7 @@
         <nav>
           <a href="index.html">Home</a>
           <a href="#partners">Partners</a>
+          <a href="#location">Location</a>
           <a href="#videos">How to</a>
           <a href="#contact-us">Contact Us</a>
         </nav>
@@ -86,6 +88,116 @@
       </div>
     </section>
     <!-- END PARTNERS -->
+    <!-- LOCATION -->
+    <section id="location">
+      <div class="container">
+        <h1>Where You Can Find Us</h1>
+        <!-- Images used to open the lightbox -->
+        <div class="row">
+          <div class="column">
+            <img
+              src="img/lightbox/bristol_small.jpg"
+              onclick="openModal();currentSlide(1)"
+              class="hover-shadow"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="img/lightbox/london_small.jpg"
+              onclick="openModal();currentSlide(2)"
+              class="hover-shadow"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="img/lightbox/madrid_small.jpg"
+              onclick="openModal();currentSlide(3)"
+              class="hover-shadow"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="img/lightbox/rome_small.jpg"
+              onclick="openModal();currentSlide(4)"
+              class="hover-shadow"
+            />
+          </div>
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides">
+              <div class="numbertext">1 / 4</div>
+              <img src="img/lightbox/bristol.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 4</div>
+              <img src="img/lightbox/london.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 4</div>
+              <img src="img/lightbox/madrid.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 4</div>
+              <img src="img/lightbox/rome.jpg" style="width: 100%" />
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            <div class="column">
+              <img
+                class="demo"
+                src="img/lightbox/bristol_small.jpg"
+                onclick="currentSlide(1)"
+                alt="Bristol"
+              />
+            </div>
+
+            <div class="column">
+              <img
+                class="demo"
+                src="img/lightbox/london_small.jpg"
+                onclick="currentSlide(2)"
+                alt="London"
+              />
+            </div>
+
+            <div class="column">
+              <img
+                class="demo"
+                src="img/lightbox/madrid_small.jpg"
+                onclick="currentSlide(3)"
+                alt="Madrid"
+              />
+            </div>
+
+            <div class="column">
+              <img
+                class="demo"
+                src="img/lightbox/rome_small.jpg"
+                onclick="currentSlide(4)"
+                alt="Rome"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END LOCATION -->
     <!-- VIDEOS -->
     <section id="videos">
       <div class="container">
